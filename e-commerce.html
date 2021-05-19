@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-comerce</title>
+</head>
+<body>
+    <header>
+        <h1>E-COMERCE</h1>
+        <nav>
+            <ul>
+                <li>Productos</li>
+                <li>Carrito</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>PRODUCTOS</h2>
+            <article>
+                <div id="producto001">
+                    <h3>producto 1</h3>
+                    <img src="/e-commerce/assets/img-productos/zapatilla.jpg" alt="zapatilla">
+                    <h2>Precio: <span></span></h2>
+                </div>
+            </article>
+        </section>
+        <section id="carrito">
+            <h2>CARRITO</h2>
+            <article>
+                <div>
+                    <h3>Productos Seleccionados</h3>
+                    <!-- producto seleccionado -->
+                    </div>
+                <div>
+                    <h3>Proceder a la compra</h3>
+                    <div id="subtotal">
+                        <h4>Precios productos seleccionados</h4>
+                        <!-- Precios de los productos seleccionados-->
+                        <h4>Subtotal Total</h4>
+                    </div>
+                    <div id="envio">
+                        <h4>Envio</h4>
+                        <form action="#">
+                            <label for="nameSurname">Nombre y Apellido:</label>
+                            <input type="text" name="nameSurname" id="nameSurname">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                            <label for="tel">Telefono:</label>
+                            <input type="phoneNumber" name="phoneNumber" id="phoneNumber">
+                            <label for="country">Pais de residencia:</label>
+                            <input type="text" name="country" id="country">
+                            <label for="province">Provincia:</label>
+                            <input type="text" name="province" id="province">
+                            <label for="address">Direccion:</label>
+                            <input type="text" name="address" id="address">
+                            <label for="numAddress">Nº:</label>
+                            <input type="text" name="numAddress" id="numAddress">
+                            <label for="zipCode">Codigo Postal:</label>
+                            <input type="text" name="zipCode" id="zipCode">
+                        </form>
+                    </div>
+                    <div class="formaPago">
+                        <div id="card">
+                            <form action="#">
+                                <label for="typeCard">Tarjeta:</label>
+                                <input type="selection" name="typeCard" id="typeCard">
+                                <label for="numCard"></label>
+                                <input type="number" name="numCard" id="numCard">
+                                <label for="cardholder">Nombre del titular:</label>
+                                <input type="text" name="cardholder" id="cardholder">
+                                <label for="dni">DNI:</label>
+                                <input type="number" name="dni" id="dni">
+                                <label for="expirationDate">Fecha de vencimiento:</label>
+                                <input type="date" name="expirationDate" id="expirationDate">
+                                <label for="securityCode">Codigo de seguridad:</label>
+                                <input type="number" name="securityCode" id="securityCode">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email">
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <script src="e-comerce.js"></script>
+</body>
+</html>
