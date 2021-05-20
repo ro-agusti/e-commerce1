@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>e-comerce</title>
     <link rel="stylesheet" href="e-commerce.css">
 </head>
+
 <body>
     <header>
         <img src="https://static.vecteezy.com/system/resources/previews/000/614/831/non_2x/pizza-vector.png" alt="logo">
@@ -24,7 +26,7 @@
             <h2>PRODUCTOS</h2>
             <article class="carroussel">
                 <div id="producto001" class="producto">
-                    <img src="/assets/img-productos/pizza1.jpg" alt="pizza">
+                    <img src="/E-COMMERCE/assets/img-productos/pizza1.jpg" alt="pizza">
                     <h3>Mozzarella</h3>
                     <h2>Precio: <span></span></h2>
                     <button id="001" class="button">Agregar al carrito</button>
@@ -68,7 +70,16 @@
                     </div>
                     <div class="formaPago">
                         <h4>Forma de Pago</h4>
-                        
+                        <form action="#">
+                            <div>
+                                <label for="formaDePago">Tarjeta de credito</label>
+                                <input type="radio" name="formaDePago" id="formaDePago-card" value="card">
+                            </div>
+                            <div>
+                                <label for="formaDePago">Efectivo</label>
+                                <input type="radio" name="formaDePago" id="formaDePago-cash" value="cash">
+                            </div>
+                        </form>
                         <!--<div id="card">
                             <form action="#">
                                  <label for="typeCard">Tarjeta:</label>
@@ -87,13 +98,16 @@
                                 <input type="email" name="email" id="email"> 
                             </form>
                         </div>-->
-                        
+
                     </div>
+
+                    <button id="comprar" class="button">COMPRAR</button>
                 </div>
             </article>
         </section>
     </main>
-    
+
     <script src="e-comerce.js"></script>
 </body>
+
 </html>

@@ -111,7 +111,7 @@ header nav ul li {
   text-align: center;
 }
 
-.productos .carroussel .producto .button {
+.button {
   height: 30px;
   width: 90%;
   margin: 5px;
@@ -200,5 +200,36 @@ header nav ul li {
   padding-left: 10px;
   border-radius: 10px;
   margin-top: 3px;
+}
+
+.carrito article .procedimiento-compra .formaPago {
+  width: 95%;
+  padding: 5px;
+}
+
+.carrito article .procedimiento-compra .formaPago h4 {
+  text-align: center;
+}
+
+.carrito article .procedimiento-compra .formaPago form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.carrito article .procedimiento-compra .formaPago form div {
+  border: none;
+}
+
+.carrito article .procedimiento-compra .formaPago form label {
+  font-size: 15px;
+}
+
+.carrito article .procedimiento-compra .formaPago form input {
+  width: 50px;
 }
 /*# sourceMappingURL=e-commerce.css.map */
