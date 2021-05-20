@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border: solid 3px orange;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  font-family: sans-serif;
+  font-weight: 800;
+  color: orange;
+  font-size: 25px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul li {
+  margin: 15px;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  color: peru;
+  font-size: 15px;
+}
+
+.productos {
+  border: orange solid 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.productos h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #3b3939;
+  margin: 5px;
+}
+
+.productos .carroussel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productos .carroussel .producto {
+  width: 23%;
+  border: orange solid 2px;
+  border-radius: 5px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productos .carroussel .producto img {
+  width: 80%;
+  height: 80%;
+}
+
+.productos .carroussel .producto h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #241e12;
+  text-align: center;
+}
+
+.productos .carroussel .producto h2 {
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.productos .carroussel .producto .button {
+  height: 30px;
+  width: 90%;
+  margin: 5px;
+  color: orangered;
+}
+
+.carrito {
+  border: orange solid 2px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.carrito h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #3b3939;
+  margin: 5px;
+}
+
+.carrito article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.carrito article div {
+  border: orange solid 2px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.carrito article .productos-seleccionados {
+  width: 70%;
+}
+
+.carrito article .procedimiento-compra {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrito article .procedimiento-compra .subtotal {
+  width: 95%;
+}
+
+.carrito article .procedimiento-compra .subtotal h4 {
+  text-align: center;
+}
+
+.carrito article .procedimiento-compra .envio {
+  width: 95%;
+}
+
+.carrito article .procedimiento-compra .envio h4 {
+  text-align: center;
+}
+
+.carrito article .procedimiento-compra .envio .form-envio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px;
+}
+
+.carrito article .procedimiento-compra .envio .form-envio input {
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 3px;
+}
+/*# sourceMappingURL=e-commerce.css.map */

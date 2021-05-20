@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: solid 3px orange;
+  border-radius: 5px;
+  margin: 5px;
+  img {
+    width: 100px;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: orange;
+    font-size: 25px;
+  }
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        margin: 15px;
+        text-decoration: none;
+        list-style: none;
+        font-family: sans-serif;
+        color: peru;
+        font-size: 15px;
+      }
+    }
+  }
+}
+.productos {
+  border: orange solid 3px;
+  border-radius: 5px;
+  margin: 5px;
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(59, 57, 57);
+    margin: 5px;
+  }
+  .carroussel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .producto {
+      width: 23%;
+      border: orange solid 2px;
+      border-radius: 5px;
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 80%;
+        height: 80%;
+      }
+      h3 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(36, 30, 18);
+        text-align: center;
+      }
+      h2 {
+        font-size: 15px;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .button {
+        height: 30px;
+        width: 90%;
+        margin: 5px;
+        color: orangered;
+      }
+    }
+  }
+}
+.carrito {
+  border: orange solid 2px;
+  border-radius: 5px;
+  margin: 5px;
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(59, 57, 57);
+    margin: 5px;
+  }
+  article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      border: orange solid 2px;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    .productos-seleccionados {
+      width: 70%;
+    }
+    .procedimiento-compra {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .subtotal {
+        width: 95%;
+        h4 {
+          text-align: center;
+        }
+      }
+      .envio {
+        width: 95%;
+        h4 {
+          text-align: center;
+        }
+        .form-envio {
+          display: flex;
+          flex-direction: column;
+          margin: 5px;
+        input{
+            height: 25px;
+            padding-left: 10px;
+            border-radius: 10px;
+            margin-top: 3px;
+        }
+        }
+      }
+    }
+  }
+}
